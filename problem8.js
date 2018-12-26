@@ -5,6 +5,6 @@ function largestProductinaSeries(n) {
     for (let i=0; i< thousandDigits.length-n; i++){
         arr.push(thousandDigits.slice(i,n+i));
     }
-    console.log(arr.map(item => item.reduce((acc, cur) => acc * cur)).reduce((acc, cur) => Math.max(acc, cur)))    
+    return arr.map(item => item.reduce((acc, cur) => acc * cur)).reduce((acc, cur) => Math.max(acc, cur));
 }
 largestProductinaSeries(13);
