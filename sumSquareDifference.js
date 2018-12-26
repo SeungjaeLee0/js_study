@@ -5,7 +5,6 @@ function sumSquareDifference(n) {
     const sum = numbers.reduce((acc, cur) => acc + cur);
     const squareOfSum = sum * sum;
     const result = squareOfSum - sumOfSquares;
-    // Good luck!
     return result;
   }
   
