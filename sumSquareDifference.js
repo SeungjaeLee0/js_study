@@ -1,3 +1,4 @@
+//Project Euler: Problem 6: Sum square difference
 function sumSquareDifference(n) {
     const range = (start, stop, step) => Array.from({ length: (stop - start + 1) / step }, (_, i) => start + (i * step));
     const numbers = range(1, n, 1);
